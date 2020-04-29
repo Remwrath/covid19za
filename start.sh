@@ -1,3 +1,3 @@
-./env-to-config ./postgrest postgrest.conf
+./env-to-config-alt ./postgrest postgrest.conf
 echo "" > /tmp/app-initialized
 
