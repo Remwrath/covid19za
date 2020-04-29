@@ -1,1 +1,2 @@
-web: ./bin/start-nginx-solo ./env-to-config ./postgrest postgrest.conf
+web: ./bin/start-nginx-solo 
+worker: ./env-to-config ./postgrest postgrest.conf
