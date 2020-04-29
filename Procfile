@@ -1,3 +1,1 @@
-worker: ./env-to-config ./postgrest postgrest.conf
-worker: echo "" >> /tmp/app-initialized
-web: bin/start-nginx
+web: bin/start-nginx sh start.sh
